@@ -1,0 +1,21 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+quest = "kL3oYXNeYhv2VXp6VoB6HQS4bULBne9JnXpwKPRiLze"
+
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/home/gitpod/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000000 tests/**/*.ts"
+
+# [test.startup_wait]
+
+
